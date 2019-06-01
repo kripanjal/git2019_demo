@@ -6,6 +6,6 @@ public Customer{
 	private long custNum;
 
 	public String toString() {
-		return name;
+		return (custNum + name);
 	}
 }
